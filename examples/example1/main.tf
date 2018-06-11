@@ -35,3 +35,7 @@ output "endpoint" {
 output "certificate_authority" {
   value = "${module.eks_cluster.certificate_authority_data}"
 }
+
+output "arn" {
+  value = "${module.eks_cluster.arn}"
+}
