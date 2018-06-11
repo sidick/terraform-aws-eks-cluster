@@ -24,7 +24,6 @@ module "eks_cluster" {
   source = "../.."
 
   cluster_name = "testcluster"
-  vpc_id       = "${module.vpc.vpc_id}"
   subnet_list  = "${module.vpc.public_subnets}"
 }
 
