@@ -20,5 +20,5 @@ output "kubeconfig-aws" {
 
 output "arn" {
   description = "The ARN of the cluster"
-  value       = "arn:aws:eks:${data.aws_region.current.name}:${data.aws_caller_identity.current.account_id}:cluster/${aws_eks_cluster.eks.name}"
+  value       = "arn:aws:eks:${data.aws_region.current.name}:${data.aws_caller_identity.current.account_id}:cluster/${aws_eks_cluster.cluster.id}"
 }
