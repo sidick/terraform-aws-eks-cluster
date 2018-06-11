@@ -31,7 +31,6 @@ module "eks_cluster" {
   source = "sidick/eks-cluster/aws"
 
   cluster_name = "testcluster"
-  vpc_id       = "vpc-xxxxxx"
   subnet_list  = [
     "subnet-xxxxxxxxxxxxxxxxx",
     "subnet-yyyyyyyyyyyyyyyyy",

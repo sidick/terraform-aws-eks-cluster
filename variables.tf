@@ -2,10 +2,6 @@ variable "cluster_name" {
   description = "Cluster name"
 }
 
-variable "vpc_id" {
-  description = "VPC ID"
-}
-
 variable "subnet_list" {
   description = "List of subnets"
 
