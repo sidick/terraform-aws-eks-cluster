@@ -41,11 +41,6 @@ module "eks_cluster" {
 ```
 
 
-Notes
------
-
-Currently the tags variable is unused, this will be fixed shortly.
-
 Author
 ------
 
